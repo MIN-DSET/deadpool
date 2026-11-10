@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(https://i.pinimg.com/736x/88/97/72/88977245ab0bb71f2d8dcff7c4de441b.jpg);
+        }
+        .contanier{
+            margin-top: 140px;
+            padding:20px;
+            text-align: center;
+             color:black;
+            background:rgba(255, 255, 255, 0.1);
+            backdrop-filter:blur(10px);
+            border: 4px solid rgba(255,255,255,0.2);
+            border-radius: 0px 90px 90px 90px;
+            
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap:30px;
+           align-items: center;
+           margin-top: 50px;
+        }
+        input{
+            width:80%;
+            height: 30px;
+            color:black;
+            background:rgba(255, 255, 255, 0.1);
+            backdrop-filter:blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.662);
+            border-radius: 15px;
+            font-size: 20px;
+            padding: 10px;
+        }
+        button{
+            width:60%;
+            margin-top: 170px;
+            height:40px;
+            border-radius: 20px;
+            background:rgba(139, 0, 0, 0.441);
+            color:black;
+            font-size: 20px;
+            font-weight: 700;
+            border:1px solid white;
+        }
+        button:hover{
+            background:  darkred;
+            color:white;
+            font-size: large;
+            border:1px solid black;
+        }
+        .contanier h1{
+            font-weight: 700;
+        }
+        p{
+            font-weight:700;
+        }
+        
+       
+    </style>
+    <div class="contanier">
+    
+    <h1>WELCOME BACK</h1>
+    <p>LOGIN TO CONTINUE</p>
+     
+    <form action="home.html">
+        <input type="email" placeholder="you@23.gmailcom">
+        <input type="password" placeholder="************">
+
+        <button type="submit">LOG<span>IN</span> </button>
+    </form>
+    
+    
+    </div>
+</body>
+</html>   
